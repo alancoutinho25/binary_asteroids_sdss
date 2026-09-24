@@ -88,6 +88,9 @@ A matriz de correlação revelou algumas relações importantes:
 
 Essas relações indicam a existência de **redundância e estrutura compartilhada entre as variáveis**.
 
+<img width="902" height="790" alt="image" src="https://github.com/user-attachments/assets/c93c81d9-2a6c-490b-9787-06420ffa7d31" />
+
+
 ---
 
 # 📐 PCA — Principal Component Analysis
@@ -120,6 +123,10 @@ da variância total dos dados.
 A PCA foi utilizada **sem fornecer a variável `classe`**, portanto os componentes principais não foram construídos para separar asteroides binários e não binários.
 
 A identificação das classes nos gráficos de PCA foi realizada posteriormente apenas para **visualização exploratória**.
+
+<img width="989" height="690" alt="image" src="https://github.com/user-attachments/assets/c76589b7-1bb8-4a11-86a3-bb57c618f08f" />
+
+<img width="989" height="690" alt="image" src="https://github.com/user-attachments/assets/af6adda0-9dd4-4c06-9f64-68fa44d38157" />
 
 ---
 
@@ -290,7 +297,9 @@ Fold 4
 Fold 5
 [[69, 14],
  [ 0, 62]]
+
 ```
+<img width="530" height="455" alt="image" src="https://github.com/user-attachments/assets/d29f30d6-cde4-4e58-947f-1a2e3a64872e" />
 
 A matriz permite distinguir diferentes tipos de erro:
 
@@ -336,34 +345,6 @@ Entretanto, esses coeficientes **não devem ser interpretados diretamente como i
 * PyVO
 * VizieR/TAP
 * Sloan Digital Sky Survey (SDSS)
-
----
-
-# 📁 Estrutura prevista
-
-```text
-asteroid-ml/
-│
-├── data/
-│   └── README.md
-│
-├── notebooks/
-│   └── asteroid_classification.ipynb
-│
-├── src/
-│   └── ...
-│
-├── figures/
-│   ├── correlation_matrix.png
-│   ├── pca_pc1_pc2.png
-│   ├── pca_pc1_pc3.png
-│   ├── confusion_matrix.png
-│   └── model_metrics.png
-│
-├── requirements.txt
-└── README.md
-```
-
 ---
 
 # 🚀 Próximos passos
@@ -388,14 +369,6 @@ A ideia central do projeto é investigar como técnicas de **Machine Learning po
 O SDSS fornece um conjunto de dados adequado para desenvolver e testar a metodologia em uma escala manejável. Posteriormente, técnicas semelhantes podem ser aplicadas a levantamentos de grande escala e domínio temporal, como o **Vera C. Rubin Observatory / LSST**.
 
 Nesse contexto, o Machine Learning não substitui a análise astronômica: ele funciona como uma ferramenta para **encontrar padrões, reduzir o espaço de candidatos e direcionar análises posteriores**.
-
----
-
-## 👨‍🔬 Autor
-
-**Alan Coutinho**
-
-Projeto desenvolvido como estudo de aplicação de Machine Learning à Astronomia, com foco na classificação de asteroides binários.
 
 ---
 
